@@ -9,6 +9,12 @@ const Images = () => {
   const [query, setQuery] = useState('');
 
   async function fetchImage(query) {
+    
+    // reset states
+    setImage({});
+    setImages([]);
+    setQuery('');
+    
     if (!!query) {
       await fetchImagesKeyword(query);
     } else {
