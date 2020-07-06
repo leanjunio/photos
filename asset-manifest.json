@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/leanjunio/photos/static/css/main.75df9f48.chunk.css",
+    "main.js": "/leanjunio/photos/static/js/main.489ae270.chunk.js",
+    "main.js.map": "/leanjunio/photos/static/js/main.489ae270.chunk.js.map",
+    "runtime-main.js": "/leanjunio/photos/static/js/runtime-main.335b4f08.js",
+    "runtime-main.js.map": "/leanjunio/photos/static/js/runtime-main.335b4f08.js.map",
+    "static/css/2.9ff99f11.chunk.css": "/leanjunio/photos/static/css/2.9ff99f11.chunk.css",
+    "static/js/2.586f34e1.chunk.js": "/leanjunio/photos/static/js/2.586f34e1.chunk.js",
+    "static/js/2.586f34e1.chunk.js.map": "/leanjunio/photos/static/js/2.586f34e1.chunk.js.map",
+    "index.html": "/leanjunio/photos/index.html",
+    "precache-manifest.bc24b2d3520e71bf4b2f51df5407606f.js": "/leanjunio/photos/precache-manifest.bc24b2d3520e71bf4b2f51df5407606f.js",
+    "service-worker.js": "/leanjunio/photos/service-worker.js",
+    "static/css/2.9ff99f11.chunk.css.map": "/leanjunio/photos/static/css/2.9ff99f11.chunk.css.map",
+    "static/css/main.75df9f48.chunk.css.map": "/leanjunio/photos/static/css/main.75df9f48.chunk.css.map",
+    "static/js/2.586f34e1.chunk.js.LICENSE.txt": "/leanjunio/photos/static/js/2.586f34e1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.335b4f08.js",
+    "static/css/2.9ff99f11.chunk.css",
+    "static/js/2.586f34e1.chunk.js",
+    "static/css/main.75df9f48.chunk.css",
+    "static/js/main.489ae270.chunk.js"
+  ]
+}
