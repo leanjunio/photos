@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button, Container, Row, Col, Image, Card, Figure } from 'react-bootstrap';
+import { Form, Button, Container, Row, Col, Figure } from 'react-bootstrap';
 
 import unsplash from '../utils';
 
