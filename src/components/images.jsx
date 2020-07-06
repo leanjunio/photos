@@ -14,13 +14,12 @@ const Images = () => {
     setImage({});
     setImages([]);
     setQuery('');
-    
+
     if (!!query) {
       await fetchImagesKeyword(query);
     } else {
       await fetchRandomImage();
     }
-    setQuery('');
   }
 
   async function fetchImagesKeyword(query) {
