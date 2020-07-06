@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Form, Button, Container, Row, Col, Image, Card } from 'react-bootstrap';
+import { Form, Button, Container, Row, Col, Image, Card, Figure } from 'react-bootstrap';
 
 import unsplash from '../utils';
 
@@ -22,7 +22,6 @@ const Images = () => {
     try {
       const res = await unsplash.search.photos(query);
       const data = await res.json();
-      console.log(data.results);
       setImages(data.results);
     } catch (e) {
       console.error(e);
@@ -60,14 +59,14 @@ const Images = () => {
       </Row>
       <Row className="justify-content-md-center py-5">
         {!!image.urls ?
-          <Card>
-            <Image src={image.urls.small} rounded />
-          </Card>
+          <Figure>
+            <Figure.Image src={image.urls.small}/>
+          </Figure>
         :
           images.map((image, i) => (
-            <Card>
-              <Image key={i} src={image.urls.small} rounded/>
-            </Card>
+            <Figure  key={i} className="m-2">
+              <Figure.Image src={image.urls.small} />
+            </Figure>
           ))
         }
       </Row>
